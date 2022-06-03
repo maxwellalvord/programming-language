@@ -6,3 +6,6 @@
   color: blueviolet;
   text-align: center;
 }
+form.btn {
+  display: block;
+}
