@@ -26,6 +26,7 @@ This webpage requires all entrys to be filled to give the user advice on what pr
 
 ## Known Bugs
 * If more than 125 characters are added to the editable survey text they will disapear into the form input box, however the value is still recorded just illegible.
+* If user leaves page via image link then returns to page via back arrow, small chance the border around h1 disappears, only been able to replicate once.
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
