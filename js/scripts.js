@@ -21,6 +21,12 @@ $(document).ready(function() {
   
     let result = progLang(number1, number2, number3, number4, number5);
 
-    $("#output").text(result);
+    // $("#output").text("hey" + fname + " " + lname + " ,you should study " + result + "! Google is a good place to start!");
     });
+  $("form#creds").submit(function(event) {
+    event.preventDefault();
+    const fname = $("input#input00").val();
+    const lname = $("input#input0").val();
+    $("#output").text("hey" + fname + " " + lname + " ,you should study " + result + "! Google is a good place to start!");
+  });
 });
