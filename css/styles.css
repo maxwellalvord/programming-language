@@ -17,6 +17,5 @@ form button.btn:hover{
 }
 
 body {
-  background-repeat: no-repeat;
-  background: linear-gradient(to top, lightblue, lightgreen);
+  background: linear-gradient(180deg, lightblue 50%, lightgreen 50%);
 }
