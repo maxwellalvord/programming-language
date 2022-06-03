@@ -22,5 +22,9 @@ $(document).ready(function() {
     let result = progLang(number1, number2, number3, number4, number5);
      
     $("#output").text(result);
+    
+    $("#output").first().click(function() {
+      $(this).remove();
+    });
   });
 });
