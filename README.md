@@ -13,7 +13,7 @@ A simple html page running simple logic to advise you on a programming language 
 
 ## Description
 
-This webpage required all entrys to be filled to give the user advice on what programming language to study. To operate enter your numerical answer in each entry then click the 'click here to see what language you should learn!' and your suggested language will print!
+This webpage requires all entrys to be filled to give the user advice on what programming language to study. To operate enter your numerical answer in each entry then click the 'click here to see what language you should learn!' and your suggested language will print! If you want to fill out the form again just click the 'reset form' button!
 
 ## Setup/Installation Requirements
 
