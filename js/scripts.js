@@ -2,18 +2,18 @@ $(document).ready(function() {
   
   $("form#matchmaking").submit(function(event) {
   
-    const age = parseInt($("input#age").val());
-    const gender = $("select#gender").val();
+    const time = parseInt($("input#time").val());
+    const speed = $("select#speed").val();
     
 
-  if (age < 30 && gender === 'male') {
-    $("#match").text("Miley Cyrus"); 
-  } else if (age > 30 && gender === 'male') {
-    $("#match").text("Emma Stone");
-  } else if (age < 30 && gender === 'female') {
-     $("#match").text("Johnny Depp");
-  } else /*(age > 30 && gender === 'female')*/ {
-    $("#match").text("Patrick Osten");
+  if (time < 30 && speed === 'Slow') {
+    $("#match").text("C Sharp"); 
+  } else if (time > 30 && speed === 'Slow') {
+    $("#match").text("Python");
+  } else if (time < 30 && speed === 'Fast') {
+     $("#match").text("JavaScript");
+  } else /*(age > 30 && speed === 'Fast')*/ {
+    $("#match").text("C Sharp");
   }
   event.preventDefault();
   });
