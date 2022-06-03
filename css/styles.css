@@ -5,6 +5,9 @@
 .container h1 {
   color: blueviolet;
   text-align: center;
+  border: 2px solid blueviolet;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 form button.btn {
   cursor: pointer;
@@ -19,3 +22,8 @@ form button.btn:hover{
 body {
   background: linear-gradient(180deg, lightblue 50%, lightgreen 50%);
 }
+
+body h6 {
+  color: blueviolet;
+}
+
