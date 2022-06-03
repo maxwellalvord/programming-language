@@ -20,11 +20,13 @@ $(document).ready(function() {
     const number5 = parseInt($("input#input5").val());
   
     let result = progLang(number1, number2, number3, number4, number5);
-     
+
     $("#output").text(result);
-    
-    $("#output").first().click(function() {
-      $(this).remove();
+    $('h3').click(function () {
+      $("input#input1").remove();
+    // $("#output").first().click(function() {
+    //   $(this).remove();
+    // });
     });
   });
 });

@@ -33,8 +33,15 @@
         <input id="input5" class="form-control" type="text" required>
       </div>
       <button type="submit" class="btn">click here to see what language you should learn!</button>
+      <input type="button" onclick="myFunction()" value="Reset form">
     </form>
+    <script>
+      function myFunction() {
+        document.getElementById("prog").reset();
+      }
+      </script>
     <br>
     <span id="output"></span>
+    <h3>click here to submit again</h3>
   </div>
 </html>
