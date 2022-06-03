@@ -2,10 +2,21 @@
   text-align: center;
 }
 
-.container h1{
+.container h1 {
   color: blueviolet;
   text-align: center;
 }
-form.btn {
-  display: block;
+form button.btn {
+  cursor: pointer;
+  color: blueviolet;
+  text-align: center;
+}
+
+form button.btn:hover{
+  text-decoration: underline;
+}
+
+body {
+  background-repeat: no-repeat;
+  background: linear-gradient(to top, lightblue, lightgreen);
 }
